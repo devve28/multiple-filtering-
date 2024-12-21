@@ -1,0 +1,49 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; // Light background for the pagination
+  border-radius: 5px; // Rounded corners
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+
+  li {
+    cursor: pointer;
+    width: 40px; // Fixed width for circular buttons
+    height: 40px; // Fixed height for circular buttons
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    border-radius: 50%; // Fully round buttons
+    background-color: rgb(119, 119, 119); // Grey background for buttons
+    color: white;
+    transition: background-color 0.3s;
+
+    &.active {
+      background-color: #4CAF50; // Highlight active page
+      color: white; // Ensure text is visible
+    }
+
+    &.hidden {
+      visibility: hidden; // Hide buttons when not applicable
+    }
+
+    &:hover {
+      background-color: #333; // Darker shade on hover
+    }
+
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
+
+  p {
+    margin: 0 10px;
+    color: #666;
+    font-size: 0.9rem;
+  }
+}

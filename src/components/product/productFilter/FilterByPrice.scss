@@ -1,0 +1,42 @@
+.price-range {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .rc-slider {
+    margin-top: 5px; // Space above the slider
+
+    .rc-slider-mark {
+      margin-top: 10px; // Move marks down by 10px
+    }
+  }
+
+  .rc-slider-track {
+    background-color: #007bff; // Customize track color
+  }
+
+  .rc-slider-handle {
+    border: 2px solid #007bff; // Customize handle border color
+    background-color: #fff; // Handle background color
+  }
+
+  .rc-slider-handle:hover {
+    background-color: #e7f1ff; // Hover effect on handle
+  }
+
+  .rc-slider-mark {
+    font-size: 14px; // Font size for marks
+  }
+
+  p {
+    margin-top: 20px; // Move price display down by 20px
+    font-size: 14px; // Optional: adjust font size
+    color: #333; // Optional: adjust text color
+  }
+}

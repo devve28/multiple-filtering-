@@ -1,0 +1,47 @@
+.product-list {
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    p {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // Set to 3 columns in a row
+    gap: 20px;
+
+    div {
+      border: 1px solid #e0e0e0;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      img {
+        max-width: 100%;
+        height: auto; // Maintain aspect ratio
+        max-height: 150px; // Set a maximum height for the images
+        border-radius: 5px;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+        margin: 10px 0;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
+}
