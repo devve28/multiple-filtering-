@@ -37,6 +37,7 @@ Welcome to **Marketplace**, an e-commerce application that allows users to filte
 - **TailwindCSS**: A utility-first CSS framework for rapid styling.
 - **Chance.js**: For generating random product data, including names, descriptions, colors, categories, prices, and ratings.
 - **CSS Modules**: For scoped and modular styling of components.
+![Uploading image.png…]()
 
 ## Getting Started
 
@@ -52,18 +53,15 @@ Ensure that you have the following installed:
 
    Navigate to the project directory:
 
-bash
-Копировать код
+
 cd lamoda
 Install dependencies:
 
-bash
-Копировать код
+
 npm install
 Start the development server:
 
-bash
-Копировать код
+
 npm start
 Open your browser and go to http://localhost:3000 to view the application.
 
