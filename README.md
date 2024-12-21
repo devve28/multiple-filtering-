@@ -37,7 +37,7 @@ Welcome to **Marketplace**, an e-commerce application that allows users to filte
 - **TailwindCSS**: A utility-first CSS framework for rapid styling.
 - **Chance.js**: For generating random product data, including names, descriptions, colors, categories, prices, and ratings.
 - **CSS Modules**: For scoped and modular styling of components.
-![Uploading image.png…]()
+
 
 ## Getting Started
 
